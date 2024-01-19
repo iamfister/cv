@@ -24,11 +24,11 @@ export const RESUME_DATA = {
   initials: "CG",
   location: "CAMPECHE, MEXICO",
   locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Full Stack Engineer .NET focused on building products with extra attention to detail",
+  about: ".NET Software Engineer",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/17189099?s=400&u=8fa78f077bd8a85c9e3a8eab8308d61e266277fc&v=4",
+    "Como ingeniero Full Stack .NET, he llevado con éxito varios productos del 0 al 1. Apasionado por la tecnología, motivado y Adaptable a las nuevas tecnologías cuando sea necesario.",
+  avatarUrl:
+    "https://avatars.githubusercontent.com/u/17189099?s=400&u=8fa78f077bd8a85c9e3a8eab8308d61e266277fc&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "cristian_yair398@hotmail.com",
@@ -68,8 +68,19 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "2022",
       end: "2023",
-      description:
-        "Sistema Candidaturas Independientes para Diputaciones, Presidencias Municipales y Presidencias de Juntas Municipales (SELCIMAR). Sistema de Información de Consejerías Electorales Distritales y Municipales (SICEDyM)",
+      description: `En el Sistema de Candidaturas Independientes para Diputaciones, Presidencias Municipales y Presidencias de Juntas Municipales (SELCIMAR), lideré y ejecuté estrategias para facilitar el proceso de candidaturas independientes en el ámbito político. Mi papel abarcó diversas responsabilidades, incluyendo: \nDesarrollo y Implementación de Procesos: \n\t1. Diseñé y ejecuté procesos eficientes para la inscripción y validación de candidaturas independientes, asegurando el cumplimiento de los requisitos legales y normativos. \nAnálisis y Reporte: \n\t1. Realicé análisis exhaustivos de datos electorales, proporcionando informes a la dirección sobre la participación y desafíos encontrados durante el proceso. \n\t2. Proporcioné recomendaciones para mejorar la eficiencia y equidad del SELCIMAR basadas en la retroalimentación recopilada durante las elecciones. \n\nEncargado de sistemas informaticos: Lic. ROSENDO DAVID PUC (+529811688198).
+      `,
+    },
+    {
+      company: "Instituto Electoral del Estado de Campeche",
+      link: "https://www.ieec.org.mx",
+      badges: ["Remote"],
+      title: ".NET Backend Developer",
+      logo: ParabolLogo,
+      start: "2022",
+      end: "2023",
+      description: `En el Sistema de Información de Consejeros Electorales Distritales y Municipales, lideré la gestión y optimización de la plataforma destinada a facilitar las funciones de los consejeros electorales a nivel distrital y municipal. Mis responsabilidades incluyeron: \n\t1. Desarrollo y Mantenimiento de la Plataforma. \n\t2. Capacitación y Soporte Técnico. \n\t3. Integración de Datos Electorales \n\t4. Generación de Informes (Adobe PDF Services). \n\nEncargado de sistemas informaticos: Lic. ROSENDO DAVID PUC (+529811688198).
+      `,
     },
     {
       company: "Mayoreo y Menudeo en Cómputo",
@@ -80,7 +91,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2023",
       description:
-        "Proyecto que tiene el objetivo de modernizar la recaudación del Estado de Campeche. El propietario es el Gobierno del Estado de Campeche.",
+        "Participación en el proyecto de modernización de la recaudación para el Gobierno del Estado de Campeche. colaboré en el desarrollo de módulos cruciales en la 3era Fase del proyecto, trabajando en estrecha colaboración con la Dirección de Tecnologías de Información y Telecomunicaciones (DTIT) de la Secretaría de Administración y Finanzas del Poder Ejecutivo del Estado de Campeche. Mi contribución se centra en optimizar la eficiencia del sistema, asegurando su conformidad con las leyes fiscales y las necesidades del Gobierno Estatal. El proyecto representa una valiosa experiencia en gestión de proyectos tecnológicos para modernizar procesos gubernamentales clave. \n\nLider de proyecto: MTRO. MANUEL ESTRADA (+529811204936)",
     },
     {
       company: "Horuss Solutions",
@@ -90,11 +101,11 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "2021",
       end: "2022",
-      description:
-        "Sistema Administrativo para Novedades/De Peso de Yucatan",
+      description: "Sistema Administrativo para Novedades/De Peso de Yucatán, participé en el diseño, implementación y optimización de un sistema administrativo integral.",
     },
     {
-      company: "Secretaría de Administración y Finanzas del Gobierno del Estado de Campeche",
+      company:
+        "CODESGN - Secretaría de Administración y Finanzas del Gobierno del Estado de Campeche",
       link: "",
       badges: ["Remote"],
       title: ".NET Backend Developer",
@@ -102,7 +113,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2020",
       description:
-        "Proyecto que tiene el objetivo de modernizar la recaudación del Estado de Campeche.",
+        "Inicié mi participación en el proyecto de modernización de la recaudación del Estado de Campeche desde su fase inicial, colaborando con el Gobierno del Estado para establecer las bases de este ambicioso proyecto. Mis responsabilidades incluyeron: \n1. Desarrollo de Api's \n2. Encargado de la Generacion de Migraciones de Entidades \n3. Pruebas Unitarias \n4. Analisis y generacion de artefactos del negocio \n5. Pruebas de Usuario del sistema \n\nLider del proyecto: Ing. Cristian Soler (+529811336465)",
     },
   ],
   skills: [
@@ -129,9 +140,10 @@ export const RESUME_DATA = {
         "xUnit",
         "NancyFX",
         "Identity Server OAuth",
-        "EF Core"
+        "EF Core",
       ],
-      description: "Proyecto que tiene el objetivo de modernizar la recaudación del Estado de Campeche.",
+      description:
+        "Mi experiencia en este rol me ha permitido desarrollar habilidades clave en gestión de sistemas fiscales y capacitación técnica.",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
@@ -142,7 +154,7 @@ export const RESUME_DATA = {
       title: "SICEDyM",
       techStack: [
         "Domain Driven Design",
-        "Entity Framework Core", 
+        "Entity Framework Core",
         "Repository Pattern",
         "Dapper",
         "Serilog",
@@ -163,7 +175,7 @@ export const RESUME_DATA = {
         ".NET 7",
       ],
       description:
-        "SISTEMA DE INFORMACIÓN DE CONSEJEROS ELECTORALES DISTRITALES Y MUNICIPALES",
+        "Mi experiencia en SICEDyM me ha permitido desarrollar habilidades clave en gestión de sistemas de información, capacitación técnica, contribuyendo al fortalecimiento de la infraestructura tecnológica que respalda el proceso electoral y la toma de decisiones a nivel distrital y municipal.",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
@@ -174,7 +186,7 @@ export const RESUME_DATA = {
       title: "SELCIMAR",
       techStack: [
         "Domain Driven Design",
-        "Entity Framework Core", 
+        "Entity Framework Core",
         "Repository Pattern",
         "Dapper",
         "Serilog",
@@ -193,10 +205,10 @@ export const RESUME_DATA = {
         "MediatR - CQRS",
         "Clean Architecture",
         ".NET 7",
-        "ANGULAR"
+        "ANGULAR",
       ],
       description:
-        "Sistema Candidaturas Independientes para Diputaciones, Presidencias Municipales y Presidencias de Juntas Municipales",
+        "Mi experiencia en SELCIMAR me ha permitido desarrollar habilidades clave en gestión de proyectos, coordinación interinstitucional y análisis estratégico, contribuyendo al fortalecimiento del sistema democrático a través de la promoción de candidaturas independientes.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
@@ -207,7 +219,7 @@ export const RESUME_DATA = {
       title: "NOVA",
       techStack: [
         "Domain Driven Design",
-        "Entity Framework Core", 
+        "Entity Framework Core",
         "Repository Pattern",
         "Dapper",
         "Serilog",
@@ -227,25 +239,24 @@ export const RESUME_DATA = {
         "Clean Architecture",
         ".NET 6",
       ],
-      description:
-        "Generador de reportes financieros",
+      description: "Mi experiencia en este rol me ha permitido comprender el diseño y gestión de sistemas administrativos personalizados.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
         href: "https://useminimal.com/",
       },
     },
-    {
-      title: "CITAS VETERINARIA",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
+    // {
+    //   title: "CITAS VETERINARIA",
+    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
+    //   description:
+    //     "Generates beautiful wallpapers using random shapes and gradients",
+    //   logo: BarepapersLogo,
+    //   link: {
+    //     label: "barepapers.com",
+    //     href: "https://barepapers.com/",
+    //   },
+    // },
     // {
     //   title: "Year progress",
     //   techStack: ["Side Project", "TypeScript", "Next.js"],
